@@ -1,0 +1,67 @@
+<script>
+  var header = `
+    <title>Vitrine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  `;
+
+  var body = `
+    <body link="#800080" bgcolor="#ffffff" text="#000080" vlink="#ff0000">
+      <b>
+        <font size="6"><p align="center">Du côté de chez Yoann</font>
+        <font size="2"><br>CH-8003 Zürich</font>
+      </b> 
+      <font size=1>&nbsp;</p></font>
+      <hr>`
+    + document.getElementsByTagName("pre")[0].outerHTML
+    + `</body>`;
+
+  document.getElementsByTagName("head")[0].innerHTML = header;
+  document.getElementsByTagName("body")[0].outerHTML = body;
+
+  var list = document.getElementsByTagName("pre")[0];
+  var links = Array.from((new DOMParser).parseFromString(list.innerHTML, 'text/html').getElementsByTagName("a")).map(x => x.innerHTML);
+  links.shift();
+  if (links.every(x => x.slice(-4) === ".jpg")) {
+    console.log("yeah");
+    const style = document.createElement('style');
+    style.innerHTML = `
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      @media screen and (max-width: 1500px) {
+        .column {
+          width: 100%;
+        }
+      }
+    `;
+  
+    var div = `<div class="row">`;
+    links.forEach(link => {
+      div += `
+        <div class="column">
+          <img src=${link} style="width:100%">
+        </div>
+     `; 
+    })
+    div += "</div>";
+    document.getElementsByTagName("pre")[0].outerHTML = div;
+    document.head.appendChild(style);
+    console.log(div, "skja");
+  }
+  console.log(links);
+</script>
