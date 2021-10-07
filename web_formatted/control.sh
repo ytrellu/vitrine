@@ -5,6 +5,16 @@
 # The above does not work; it will show false positives.
 # Waiting on learning about a better automated html validator
 
+DIR=$(dirname $(readlink -f $0))
+
+for filename in $DIR/*.md; do
+
+  [ -e "$filename" ] || continue
+
+  pandoc ${filename} -s \
+    -c https://cdn.simplecss.org/simple.min.css \
+    --no-highlight -o ${filename%.md}.html
+done
 
 echo "files are formatted for the web"
 exit 0
