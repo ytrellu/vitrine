@@ -1,5 +1,6 @@
 *.pdf
 *.jpg
+*.png
 web_formatted/*.html
 !web_formatted/home.html
 

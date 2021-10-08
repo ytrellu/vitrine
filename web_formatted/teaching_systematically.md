@@ -17,9 +17,9 @@ ce qui est disjoint.
 
 # Divide and Rule
 
-When a thing accepts many descriptions, this promotes opacity. this leaves agency
+When a thing accepts many descriptions, this leaves agency
 when communicating. And this can be used to either mislead or enlighten,
-as examplified by Bernays in his book Propaganda.
+as examplified by Bernays
 
 >Recently the word Bolshevik 
 has performed a similar service for persons who 
@@ -27,7 +27,7 @@ wished to frighten the public away from a line of
 action.
 
 And not only an impulsive public, but also individuals. And in fields
-known for their rigor, here by the mathematician Bellman, from his autobiography:
+known for their rigor, here by the mathematician Bellman
 
 >My first task was to find a name 
 for multistage decision processes. 
@@ -42,9 +42,9 @@ meaning. It's impossible. Thus, I thought dynamic programming was
 a good name. It was something not even a Congressman could object 
 to. So I used it as an umbrella for my activities.
 
-Many descriptions for one thing not only enables misleads, but also distantiates disciplines.
+Many descriptions for one thing not only enable misleadings, but also distantiates disciplines.
 A prime example being that of a medical researcher
-rediscovering integration and getting a high number of citations.
+rediscovering integration and getting a high number of citations
 
 >A Mathematical Model for the
 Determination of Total Area
@@ -134,6 +134,8 @@ could be rigorously defined in a unique way?
 >
 >• a theory of complexity for certain games (in the sense of von Neu-
 >mann) which includes Chess, Checkers, Go, etc.
+
+Unite and build, because this bonds people together, building towards the same purpose.
 
 # Bibliography
 
