@@ -13,7 +13,7 @@ for filename in $DIR/*.md; do
 
   pandoc ${filename} -s \
     -c https://cdn.simplecss.org/simple.min.css \
-    --no-highlight -o ${filename%.md}.html
+    -o ${filename%.md}.html
 done
 
 echo "files are formatted for the web"
