@@ -75,7 +75,7 @@ general techniques to improve its readability, and more...
 
 - Sussman, G. J., Abelson, H. (1985). Structure and Interpretation of Computer Programs. The MIT Press.
 
-- [lexifi.com/pdf/contracts.pdf](lexifi.com/pdf/contracts.pdf).
+- [lexifi.com/pdf/contracts.pdf](https://lexifi.com/pdf/contracts.pdf).
 
 -  W. Schwabhäuser, W. Szmielew, A. Tarski (1983). Metamathematische Methoden in der 
 Geometrie. Springer, Berlin, Heidelberg. 
