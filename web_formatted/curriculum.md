@@ -12,7 +12,9 @@ date: 03.12.2021
 * **Purpose**: Onboarding of new products & valuation methods
 * **Role**: business & quantitative analysis.
 * **Responsibilities**: Coordination within 2nd LoD, validation of interest rate derivatives and discounting methodologies  
+
 ---
+
 * **Client**: Bank, International Wealth Management Division
 * **Purpose**: Operational risk mitigation & automation for the Structured Lending & Real Estate Finance business
 * **Role**: business analysis.
@@ -92,4 +94,5 @@ And next to the theory, some code, modeling, and writing:
 - [Analysis of Pollen Allergies Through Google Trends Data](/pdfs/AnalysisOfPollenAllergiesThroughGoogleTrendsData.pdf) (R)
 - [Mathematical](/pdfs/MMBAssignment2.pdf) [Modeling](/pdfs/MMBAssignment3.pdf)
   of Behavior (Biogeme)
+
 

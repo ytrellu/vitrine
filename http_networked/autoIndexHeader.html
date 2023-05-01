@@ -23,7 +23,6 @@
   var links = Array.from((new DOMParser).parseFromString(list.innerHTML, 'text/html').getElementsByTagName("a")).map(x => x.innerHTML);
   links.shift();
   if (links.every(x => x.slice(-4) === ".jpg")) {
-    console.log("yeah");
     const style = document.createElement('style');
     style.innerHTML = `
       * {
@@ -61,7 +60,5 @@
     div += "</div>";
     document.getElementsByTagName("pre")[0].outerHTML = div;
     document.head.appendChild(style);
-    console.log(div, "skja");
   }
-  console.log(links);
 </script>
