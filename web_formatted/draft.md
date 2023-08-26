@@ -61,13 +61,21 @@ An environment to an observable.
 
 Applying a unified view to finance:
 
+Two rules:
+- Let's call it the custody assumption, the fact that custody of a dollar 
+comes at no costs. A dollar today is worth more than a dollar tomorrow. 
+
+- Let's call it the risk aversion assumption.
+It can also be called prospect theory, or loss aversion.
+Here, we consider the financing as an input to a control system. We then
+realize that allowing for noise increases the complexity of the control
+system. In other words, a dollar is worth more than a risky one. 
+
 - Insurances have a recurring predictable cost for unpredictable events
 - Shares have a one-time predictable cost (share price) for recurring
-  predictable events (dividends).
+  unpredictable events (dividends).
 
 Examples of insurance products:
 
-- Rope (continuous weight cost, for unpredictable events)
-- Rights
-
+- Rope (continuous weight & drag cost, for unpredictable events)
 
